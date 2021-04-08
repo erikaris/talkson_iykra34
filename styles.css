@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+html, body {
+  letter-spacing: 0;
+  color: #bdbdbd;
+  background-color: #000;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+div.outer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  padding: 10px;
+} 
+
+.box {
+  background-color: #222327;
+  border: 1px solid #363636;
+  margin-bottom: 10px;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.right {
+  right: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.title {
+  font-size: 20pt;
+  line-height: 1.3875;
+}
+
+.card .key {
+  font-size: 12pt;
+  color: #fff;
+}
+
+.card .value {
+  color: #e60000;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.card .kvrow {
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid #363636;
+}
+
+.card .kvrow:last-child {
+  border-bottom: unset;
+}
+
+.card .kvrow .key {
+  display: table-cell;
+  text-align: left;
+}
+
+.card .kvrow .value {
+  display: table-cell;
+  text-align: right;
+}
